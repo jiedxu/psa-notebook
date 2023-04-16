@@ -7,14 +7,12 @@ on:
     paths:
       - 'build-environment.yml'
       - 'environment.yml'
-      - 'content/'
   pull_request:
     branches:
       - '*'
     paths:
       - 'build-environment.yml'
       - 'environment.yml'
-      - 'content/'
 
 jobs:
   build:
