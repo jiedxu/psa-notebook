@@ -1,15 +1,9 @@
-*.bundle.*
-lib/
-node_modules/
-.yarn-packages/
-*.egg-info/
-.ipynb_checkpoints
-*.tsbuildinfo
 
-# Created by https://www.gitignore.io/api/python
-# Edit at https://www.gitignore.io/?templates=python
+## VS Code
+.vscode
 
-### Python ###
+## Python
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -106,11 +100,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# OS X stuff
+## MacOS
 *.DS_Store
 
-# End of https://www.gitignore.io/api/python
-
-# jupyterlite
+## jupyterlite
 *.doit.db
 _output
