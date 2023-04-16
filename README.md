@@ -13,7 +13,7 @@ JupyterLite is being tested against modern web browsers:
 
 ## Kernels
 
-The version of Python is 3.10. For now, it is not possible to add Python package, so only the following packages are available, since they are added during the build of the kernel.
+The version of [`xeus-python`](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, it is not possible to add Python package, so only the following packages are available, since they are added during the build of the kernel.
 
 | Package                       | Version |
 | ----------------------------- | ------- |
@@ -60,3 +60,7 @@ The version of Python is 3.10. For now, it is not possible to add Python package
 | xeus-python-shell             | 0.5.0   |
 | xlrd                          | 2.0.1   |
 | xlsxwriter                    | 3.0.9   |
+
+In contrast, any pure Python package with a wheel available on [PyPI](https://pypi.org/) can be installed in the [Pyodide](https://pyodide.org/en/stable/) kernel, even though the useful packages in the `xeus-python` kernel are not pre-installed.
+
+The [`xeus-sqlite`](https://xeus-sqlite.readthedocs.io/en/latest/) kernel is also available.
