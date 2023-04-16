@@ -4,6 +4,13 @@
 
 [`edxu96.github.io/psa-notebook`](https://edxu96.github.io/psa-notebook) provides a Jupyter notebook working environment, with `pandapower`, `networkx`, `seaborn` and other useful packages pre-installed.
 
+## Requirements of the browser
+
+JupyterLite is being tested against modern web browsers:
+
+- Firefox 90+
+- Chromium 89+
+
 ## Kernels
 
 The version of Python is 3.10. For now, it is not possible to add Python package, so only the following packages are available, since they are added during the build of the kernel.
@@ -53,10 +60,3 @@ The version of Python is 3.10. For now, it is not possible to add Python package
 | xeus-python-shell             | 0.5.0   |
 | xlrd                          | 2.0.1   |
 | xlsxwriter                    | 3.0.9   |
-
-## Requirements
-
-JupyterLite is being tested against modern web browsers:
-
-- Firefox 90+
-- Chromium 89+
