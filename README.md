@@ -12,17 +12,17 @@ You can even use it in a mobile browser:
 
 The version of [the `xeus-python` kernel](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, Python packages can only be added during the build of the kernel. `environment.yml` specifies which packages are added. The available packages are listed in the appendix. More information on `xeus-python` can be found in [the original repo of this fork](https://github.com/jupyterlite/xeus-python-demo).
 
-In contrast, any Python package with [pure Python wheels](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#pure-python-wheels) available on [PyPI](https://pypi.org/) can be installed in the [Pyodide kernel](https://pyodide.org/en/stable/). Run the following commands:
+In contrast, any Python package with [pure Python wheels](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#pure-python-wheels) available on [PyPI](https://pypi.org/) can be installed in the [Pyodide kernel](https://pyodide.org/en/stable/). For example, to install [SymPy](https://github.com/sympy/sympy):
 
 ```python
-%pip install -q snowballstemmer
+%pip install -q sympy
 ```
 
 which is the same as:
 
 ```python
 import piplite
-await piplite.install("snowballstemmer")
+await piplite.install("sympy")
 ```
 
 Note that neither [`PyPSA`](https://github.com/PyPSA/PyPSA) nor [`pandapower`](https://github.com/e2nIEE/pandapower) can be installed in this kernel.
