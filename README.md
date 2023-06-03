@@ -4,6 +4,12 @@
 
 [`edxu96.github.io/psa-notebook`](https://edxu96.github.io/psa-notebook) provides a Jupyter notebook working environment, with `pandapower`, `networkx`, `seaborn` and other useful packages pre-installed.
 
+<center>
+    <picture>
+        <img alt="Use psa-notebook in a mobile browser" src="./img/mobile-screenshot.png" width="400">
+    </picture>
+</center>
+
 ## Kernels
 
 The version of [`xeus-python`](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, Python packages can only be added during the build of the kernel. `environment.yml` specifies which packages are added. The available packages are listed in the appendix.
