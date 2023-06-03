@@ -29,14 +29,7 @@ Note that neither [`PyPSA`](https://github.com/PyPSA/PyPSA) nor [`pandapower`](h
 
 [The `xeus-sqlite` kernel](https://xeus-sqlite.readthedocs.io/en/latest/) is also available.
 
-More information on JupyterLite can be found in https://jupyterlite.readthedocs.io/en/latest/index.html.
-
-## Requirements of the browser
-
-JupyterLite is being tested against modern web browsers:
-
-- Firefox 90+
-- Chromium 89+
+More information on can be found in [the documentation of JupyterLite](https://jupyterlite.readthedocs.io/en/latest/index.html).
 
 ## Appendix
 
@@ -87,3 +80,8 @@ The available Python packages in `xeus-python` are:
 | xeus-python-shell             | 0.5.0   |
 | xlrd                          | 2.0.1   |
 | xlsxwriter                    | 3.0.9   |
+
+JupyterLite is being tested against:
+
+- Firefox 90+
+- Chromium 89+
