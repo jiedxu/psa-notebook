@@ -4,6 +4,8 @@
 
 [`edxu96.github.io/psa-notebook`](https://edxu96.github.io/psa-notebook) provides a Jupyter notebook working environment, with `pandapower`, `networkx`, `seaborn` and other useful packages pre-installed.
 
+You can even use it in a mobile browser:
+
 ![screenshot of using psa-notebook in a mobile browser](./img/mobile-screenshot.png)
 
 ## Kernels
