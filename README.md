@@ -10,7 +10,7 @@ You can even use it in a mobile browser:
 
 ## Kernels
 
-The version of the [`xeus-python` kernel](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, Python packages can only be added during the build of the kernel. `environment.yml` specifies which packages are added. The available packages are listed in the appendix.
+The version of the [`xeus-python` kernel](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, Python packages can only be added during the build of the kernel. `environment.yml` specifies which packages are added. The available packages are listed in the appendix. More information on `xeus-python` can be found in [the original repo of this fork](https://github.com/jupyterlite/xeus-python-demo).
 
 In contrast, any Python package with [pure Python wheels](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#pure-python-wheels) available on [PyPI](https://pypi.org/) can be installed in the [Pyodide kernel](https://pyodide.org/en/stable/).
 
@@ -25,7 +25,7 @@ JupyterLite is being tested against modern web browsers:
 
 ## Appendix
 
-The available Python packages in the `xeus-python` kernel are:
+The available Python packages in `xeus-python` are:
 
 | Package                       | Version |
 | ----------------------------- | ------- |
