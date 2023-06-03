@@ -10,11 +10,11 @@ You can even use it in a mobile browser:
 
 ## Kernels
 
-The version of [`xeus-python`](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, Python packages can only be added during the build of the kernel. `environment.yml` specifies which packages are added. The available packages are listed in the appendix.
+The version of the [`xeus-python` kernel](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, Python packages can only be added during the build of the kernel. `environment.yml` specifies which packages are added. The available packages are listed in the appendix.
 
-In contrast, any Python package with [pure Python wheels](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#pure-python-wheels) available on [PyPI](https://pypi.org/) can be installed in the [Pyodide](https://pyodide.org/en/stable/) kernel.
+In contrast, any Python package with [pure Python wheels](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#pure-python-wheels) available on [PyPI](https://pypi.org/) can be installed in the [Pyodide kernel](https://pyodide.org/en/stable/).
 
-The [`xeus-sqlite`](https://xeus-sqlite.readthedocs.io/en/latest/) kernel is also available.
+The [`xeus-sqlite` kernel](https://xeus-sqlite.readthedocs.io/en/latest/) is also available.
 
 ## Requirements of the browser
 
