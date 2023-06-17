@@ -5,23 +5,25 @@ on:
     branches:
       - main
     paths:
-      - 'environment.yml'
-      - 'files/'
       - 'pyproject.toml'
       - 'poetry.lock'
-      - 'jupyter_lite_config.json'
+      - 'environment.yml'
+      - 'files/'
       - 'copy.sh'
   pull_request:
     branches:
       - '*'
     paths:
-      - 'environment.yml'
-      - 'files/'
       - 'pyproject.toml'
       - 'poetry.lock'
-      - 'jupyter_lite_config.json'
+      - 'environment.yml'
+      - 'files/'
       - 'copy.sh'
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
