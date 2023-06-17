@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'environment.yml'
-      - 'content/'
+      - 'files/'
       - 'poetry.lock'
       - 'jupyter_lite_config.json'
   pull_request:
@@ -14,7 +14,7 @@ on:
       - '*'
     paths:
       - 'environment.yml'
-      - 'content/'
+      - 'files/'
       - 'poetry.lock'
       - 'jupyter_lite_config.json'
   workflow_dispatch:
