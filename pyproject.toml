@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "psa-notebook"
-version = "0.1.1"
+version = "0.1.2"
 description = "Jupyter notebook for power system analysis in the browser."
 authors = ["Edward Xu <edxu96@outlook.com>"]
 readme = "README.md"
