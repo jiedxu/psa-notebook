@@ -1,0 +1,8 @@
+{
+    "LiteBuildConfig": {
+      "contents": [
+        "pandapower/tutorials/powerflow.ipynb",
+        "pandapower/tutorials/ieee_european_lv_asymmetric.ipynb"
+      ]
+    }
+}

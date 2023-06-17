@@ -1,4 +1,4 @@
-name: build and deploy
+name: ci
 
 on:
   push:
@@ -6,15 +6,19 @@ on:
       - main
     paths:
       - 'environment.yml'
-      - 'content/'
+      - 'files/'
       - 'poetry.lock'
+      - 'jupyter_lite_config.json'
+      - 'copy.sh'
   pull_request:
     branches:
       - '*'
     paths:
       - 'environment.yml'
-      - 'content/'
+      - 'files/'
       - 'poetry.lock'
+      - 'jupyter_lite_config.json'
+      - 'copy.sh'
   workflow_dispatch:
 
 jobs:
@@ -23,6 +27,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:  
+          submodules: recursive
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -40,14 +46,16 @@ jobs:
       - name: Install Python dependencies
         run: |
           poetry install --no-interaction --no-root
+      - name: Copy to-be-included files
+        run: |
+          bash copy.sh
       - name: Build
         shell: bash -l {0}
         run: |
-          cp README.md content
-          poetry run jupyter lite build --contents content --output-dir dist
+          poetry run jupyter lite build
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: ./dist
+          path: ./_output/
   deploy:
     needs: build
     if: github.ref == 'refs/heads/main'
