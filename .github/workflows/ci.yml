@@ -1,4 +1,4 @@
-name: build and deploy
+name: ci
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
       - 'environment.yml'
       - 'content/'
       - 'poetry.lock'
+      - 'jupyter_lite_config.json'
   pull_request:
     branches:
       - '*'
@@ -15,6 +16,7 @@ on:
       - 'environment.yml'
       - 'content/'
       - 'poetry.lock'
+      - 'jupyter_lite_config.json'
   workflow_dispatch:
 
 jobs:
