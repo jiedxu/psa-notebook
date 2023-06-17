@@ -10,7 +10,7 @@ You can even use it in a mobile browser:
 
 ## Kernels
 
-The version of [the `xeus-python` kernel](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, Python packages can only be added during the build of the kernel. `environment.yml` specifies which packages are added. The available packages are listed in the appendix. More information on `xeus-python` can be found in [the original repo of this fork](https://github.com/jupyterlite/xeus-python-demo).
+The version of [the `xeus-python` kernel](https://xeus-python.readthedocs.io/en/latest/) is 3.10.2. For now, the runtime Python packages must be specified in `environment.yml` during the build of the kernel. The current available packages are listed in the appendix. More information on `xeus-python` can be found in [the original repo of this fork](https://github.com/jupyterlite/xeus-python-demo).
 
 In contrast, any Python package with [pure Python wheels](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#pure-python-wheels) available on [PyPI](https://pypi.org/) can be installed in the [Pyodide kernel](https://pyodide.org/en/stable/). For example, to install [SymPy](https://github.com/sympy/sympy):
 
