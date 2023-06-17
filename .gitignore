@@ -1,4 +1,8 @@
 
+## Custom
+files/
+!files/quick-start.ipynb
+
 ## VS Code
 .vscode
 
