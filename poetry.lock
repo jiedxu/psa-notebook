@@ -1202,6 +1202,17 @@ files = [
 ]
 
 [[package]]
+name = "libarchive-c"
+version = "4.0"
+description = "Python interface to libarchive"
+optional = false
+python-versions = "*"
+files = [
+    {file = "libarchive-c-4.0.tar.gz", hash = "sha256:a5b41ade94ba58b198d778e68000f6b7de41da768de7140c984f71d7fa8416e5"},
+    {file = "libarchive_c-4.0-py2.py3-none-any.whl", hash = "sha256:b7306dceaeeac199dd53a471ea9d39ed4be8e81962df99d628db7a12efbb9b52"},
+]
+
+[[package]]
 name = "markupsafe"
 version = "2.1.3"
 description = "Safely add untrusted strings to HTML/XML markup."
@@ -2440,4 +2451,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10"
-content-hash = "ced6f41ce15ec4af4979cbf8991e1392888026f6850ff57048ce877533963b19"
+content-hash = "19767d4eb0504f2318a18d44fab0c088414be81c1681bd64b3b243cd6041316e"

@@ -7,6 +7,7 @@ on:
     paths:
       - 'environment.yml'
       - 'files/'
+      - 'pyproject.toml'
       - 'poetry.lock'
       - 'jupyter_lite_config.json'
       - 'copy.sh'
@@ -16,6 +17,7 @@ on:
     paths:
       - 'environment.yml'
       - 'files/'
+      - 'pyproject.toml'
       - 'poetry.lock'
       - 'jupyter_lite_config.json'
       - 'copy.sh'
