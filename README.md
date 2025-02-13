@@ -1,8 +1,8 @@
 # psa-notebook: power system analysis in the browser
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://edxu96.github.io/psa-notebook) [![Build and Deploy](https://github.com/edxu96/psa-notebook/actions/workflows/ci.yml/badge.svg)](https://github.com/edxu96/psa-notebook/actions/workflows/ci.yml)
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jiedxu.github.io/psa-notebook) [![Build and Deploy](https://github.com/jiedxu/psa-notebook/actions/workflows/ci.yml/badge.svg)](https://github.com/jiedxu/psa-notebook/actions/workflows/ci.yml)
 
-[`edxu96.github.io/psa-notebook`](https://edxu96.github.io/psa-notebook) provides a Jupyter notebook working environment, with `pandapower`, `networkx`, `seaborn` and other useful packages pre-installed.
+[`jiedxu.github.io/psa-notebook`](https://jiedxu.github.io/psa-notebook) provides a Jupyter notebook working environment, with `pandapower`, `networkx`, `seaborn` and other useful packages pre-installed.
 
 You can even use it in a mobile browser:
 
